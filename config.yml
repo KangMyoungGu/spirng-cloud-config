@@ -1,1 +1,9 @@
-
+app:
+  image-domain: http://localhost:8080/images
+  limit:
+    convert: 10
+    proc: 10
+  convert:
+    path:
+      file: C:/convert/record
+      tmp: C:/tmp/record 
